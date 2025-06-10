@@ -1,6 +1,6 @@
 {
           'table': 'nps_summary',
-          'schema': 'keeyong',
+          'schema': 'ryanp3',
           'main_sql': """
 SELECT LEFT(created_at, 10) AS date,
   ROUND(SUM(CASE
@@ -12,7 +12,7 @@ ORDER BY 1;""",
           'input_check':
           [
             {
-              'sql': 'SELECT COUNT(1) FROM keeyong.nps',
+              'sql': 'SELECT COUNT(1) FROM ryanp3.nps',
               'count': 150000
             },
           ],

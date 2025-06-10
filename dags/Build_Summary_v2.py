@@ -27,7 +27,9 @@ dag = DAG(
 
 # this should be listed in dependency order (all in analytics)
 tables_load = [
-    'nps_summary'
+    'nps_summary',
+    'mau_summary',
+    'channel_summary'
 ]
 
 dag_root_path = os.path.dirname(os.path.abspath(__file__))

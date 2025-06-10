@@ -90,7 +90,7 @@ sheets = [
     {
         "url": "https://docs.google.com/spreadsheets/d/1hW-_16OqgctX-_lXBa0VSmQAs98uUnmfOqvDYYjuE50/",
         "tab": "SheetToRedshift",
-        "schema": "keeyong",
+        "schema": "ryanp3",
         "table": "spreadsheet_copy_testing"
     }
 ]
