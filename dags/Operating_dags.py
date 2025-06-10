@@ -134,7 +134,7 @@ default_args = {
 with DAG(
     dag_id='daily_weather_fact_pipeline',
     start_date=datetime(2025, 6, 9),
-    schedule_interval='0 7 * * *',
+    schedule_interval='0 0 * * *',
     catchup=True,
     tags=['weather', 'raw_to_fact'],
     default_args=default_args,
