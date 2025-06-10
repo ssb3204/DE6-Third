@@ -63,7 +63,7 @@ with DAG(
     default_args=default_args,
     #start_date=datetime(2024, 6, 5),
     start_date=datetime(2025, 6, 5),
-    schedule_interval='30 1 * * *',
+    schedule_interval='0 0 * * *',
     catchup=True,
     tags=['weather', 'snowflake', 'wind'],
 ) as dag:
